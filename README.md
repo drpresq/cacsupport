@@ -1,4 +1,4 @@
-#Instructions to enable DoD CAC PIV usage within Firefox:
+# Instructions to enable DoD CAC PIV usage within Firefox:
 
 ---
 
