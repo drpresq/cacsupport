@@ -9,7 +9,7 @@ function build_opensc {
 	cd $HOME/Downloads
 	wget https://github.com/OpenSC/OpenSC/releases/download/0.21.0/opensc-0.21.0.tar.gz
 	tar xfvz opensc-*.tar.gz
-	cd $(find $HOME/Downloads -type d -iname "opensc*")
+	cd $HOME/Downloads/opensc-*
 	./bootstrap
 	./configure --prefix=/usr --sysconfdir=/etc/opensc
 	make
