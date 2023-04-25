@@ -9,9 +9,9 @@
 
 #### A collection of Linux shell scripts for integrating DoD CAC PIV Support into:
 
-* OS (linux-cacsupport-base.sh) **Prerequisite for all scripts**
+* OS (linux-cacsupport-base.sh) **Prerequisite for either Linux script**
 * FireFox (linux-cacsupport-firefox.sh)
-* SSH
+* SSH (linux-cacsupport-firefox.sh)
 
 #### Instructions for expanding CAC usage in Windows:
 
@@ -21,7 +21,11 @@
 
 ---
 
-Linux Shell Scripts were tested on Ubuntu Desktop 20.04 (Minimal Installation) 20210208.
+Linux Shell Scripts are verified on: 
+
+- Ubuntu Desktop 20.04 (Minimal Installation)
+- Mint Linux Desktop 20.3
+- Mint Linux Desktop 21.1
 
 Windows Instructions were tested on Windows 10 Enterprise with DISA STIG 20210209.
 
@@ -44,7 +48,7 @@ chmod +x ./linux-*
 
 ---
 
-Just open it? If you don't have a text program that can parse markdown, just open it in [github](https://github.com/drpresq/cacsupport/blob/main/windows-cacsupport-ssh.md)
+Just open it! If you don't have a text program that can parse markdown, just open it in [github](https://github.com/drpresq/cacsupport/blob/main/windows-cacsupport-ssh.md)
 
 
 ## References
