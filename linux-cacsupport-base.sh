@@ -6,14 +6,19 @@ function install_prereq {
 
 function build_opensc {
 	cd $HOME/Downloads
-	wget https://github.com/OpenSC/OpenSC/releases/download/0.21.0/opensc-0.21.0.tar.gz
+	wget https://github.com/OpenSC/OpenSC/releases/download/0.23.0/opensc-0.23.0.tar.gz
 	tar xfvz opensc-*.tar.gz
 	rm opensc-*.tar.gz
-	cd $HOME/Downloads/opensc-0*
+	cd $HOME/Downloads/opensc-*
 	./bootstrap
 	./configure --prefix=/usr --sysconfdir=/etc/opensc
 	make
 	sudo make install
+}
+
+function clean_opensc {
+	cd $HOME
+	rm -rf $HOME/Downloads/opensc-*
 }
 
 echo -e "\n\nInstalling Prerequisites\n"
@@ -21,6 +26,9 @@ install_prereq
 
 echo -e "\n\nBuilding and Installing OpenSC\n"
 build_opensc
+
+echo -e "\n\nCleaning Up OpenSC installation Files\n"
+clean_opensc
 
 
 
