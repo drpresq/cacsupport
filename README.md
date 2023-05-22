@@ -9,9 +9,8 @@
 
 #### A collection of Linux shell scripts for integrating DoD CAC PIV Support into:
 
-* OS (linux-cacsupport-base.sh) **Prerequisite for either Linux script**
-* FireFox (linux-cacsupport-firefox.sh)
-* SSH (linux-cacsupport-firefox.sh)
+* OpenSC PIV II Smartcard Middleware (linux-cacsupport-middleware.sh)
+* DoD Root Certificates (linux-cacsupport-certificates.sh)
 
 #### Instructions for expanding CAC usage in Windows:
 

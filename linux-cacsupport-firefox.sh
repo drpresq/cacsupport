@@ -13,7 +13,4 @@ modutil -dbdir $(find $HOME/.mozilla/firefox/ -iname *.default-release) -add 'Op
 echo -e "\n\nAdding Certificates to FireFox\n"
 firefox_certs
 
-echo -e "\n\nAdding the OpenSC Module to default PKI Database\n"
-modutil -dbdir sql:.pki/nssdb/ -add "token_name" -libfile /usr/lib/opensc-pkcs11.so
-
 echo -e "\n\nDONE!!\n"
