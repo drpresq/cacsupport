@@ -8,7 +8,7 @@ You may use the [PuTTY-CAC agent](https://www.github.com/NoMoreFood/putty-cac/re
 
 ## Instructions
 
-Instructions for setting up CAC SSH and exporting public SSH keys under windows may be found at the [IdManagement.Gov Website](https://piv.idmanagement.gov/engineering/ssh/).
+Instructions for setting up CAC SSH and exporting public SSH keys under windows may be found at the [IdManagement.Gov Website](https://www.idmanagement.gov/implement/scl-ssh/).
 
 ## Notes
 
