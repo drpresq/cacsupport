@@ -7,10 +7,10 @@
 
 ---
 
-#### A collection of Linux shell scripts for integrating DoD CAC PIV Support into:
+#### A collection of Linux shell scripts for integrating DoD CAC PIV Support:
 
-* OpenSC PIV II Smartcard Middleware (linux-cacsupport-middleware.sh)
-* DoD Root Certificates (linux-cacsupport-certificates.sh)
+* OpenSC PIV II Smartcard Support for Firefox and Chromium-based web browsers (linux-cacsupport-setup.sh)
+* Enable the use of your PIV II Smartcard-based user certificates as SSH keys (linux-cacsupport-ssh.sh)
 
 #### Instructions for expanding CAC usage in Windows:
 
@@ -35,11 +35,13 @@ Windows Instructions were tested on Windows 10 Enterprise with DISA STIG 2021020
 
 
 ```
-
 git clone https://github.com/drpresq/cacsupport.git
 cd cacsupport
-chmod +x ./linux-*
-./linux-*
+chmod +x ./linux-cacsupport-*
+# Setup DoD CAC PIV Support
+./linux-cacsupport-setup.sh
+# Setup Using DoD CAC PIV for use with ssh
+./Linux-cacsupport-ssh.sh
 
 ```
 
