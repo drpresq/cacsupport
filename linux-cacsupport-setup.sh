@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#TODO: Include handling non-debian based distros
-
 VERSION="0.23.0"
 MIDDLEWARE="OpenSC"
 
