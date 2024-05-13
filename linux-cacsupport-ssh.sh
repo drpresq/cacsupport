@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function export_pubkey {
-	pkcs15-tool --read-ssh-key 01  -o $HOME/id_piv.pub
+	pkcs15-tool --read-ssh-key 01  -o "$HOME"/id_piv.pub
 }
 
 echo -e "\n\nExtracted CAC SSH Keys to $HOME/authorized_keys\n"
